@@ -7,7 +7,7 @@ https://lucid.app/lucidchart/ebf3307a-b46a-4be8-9428-c2dc6fb2e0bd/edit?beaconFlo
 # Database Initialization Instructions
 
 ## Overview
-This repository includes a dump file that allows you to regenerate the MongoDB database used in this project. Follow the steps below to initialize the database on your local environment.
+This repository includes a zip file that contains a dump file that allows you to regenerate the MongoDB database used in this project. Follow the steps below to initialize the database on your local environment.
 
 ## Prerequisites
 1. **MongoDB Installed:**
@@ -19,10 +19,10 @@ This repository includes a dump file that allows you to regenerate the MongoDB d
 ## Steps to Initialize the Database
 
 ### Step 1: Download the Repository
-Clone or download this repository to your local machine.
+Clone or download this repository to your local machine. Then unzip the MongoDB PDBMS file.
 
 ### Step 2: Navigate to the Dump Folder
-Navigate to the `dump` folder in the root directory of the cloned repository. This folder contains the MongoDB dump files.
+Navigate to the `dump` folder in this file. This folder contains the MongoDB dump files.
 
 ### Step 3: Run mongorestore
 Open a terminal and run the following command to restore the database from the dump:
